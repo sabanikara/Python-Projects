@@ -1,0 +1,28 @@
+todo_list = []   # این یه لیست خالیه که کارها توش ذخیره می‌شن
+
+while True:
+    print("\n1. افزودن کار")
+    print("2. نمایش کارها")
+    print("3. خروج")
+    
+    choice = input("انتخاب شما: ")
+    
+    if choice == "1":
+        task = input("کار جدید رو بنویس: ")
+        todo_list.append(task)
+        print("کار اضافه شد!")
+        
+    elif choice == "2":
+        if len(todo_list) == 0:
+            print("لیست خالیه")
+        else:
+            print("\nلیست کارها:")
+            for i, task in enumerate(todo_list, 1):
+                print(f"{i}. {task}")
+                
+    elif choice == "3":
+        print("خداحافظ")
+        break
+        
+    else:
+        print(" فقط ۱ یا ۲ یا ۳ رو بزن")
