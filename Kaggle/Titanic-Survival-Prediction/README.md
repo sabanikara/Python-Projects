@@ -1,4 +1,8 @@
+🔗 Kaggle Notebook
 
+The original Kaggle Notebook for this project is available here:
+
+View the project on Kaggle
 Titanic Survival Prediction 🚢
 
 A machine learning project for predicting passenger survival using the Titanic dataset from Kaggle.
