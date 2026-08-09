@@ -1,7 +1,7 @@
 🔗 Kaggle Notebook
 
 The original Kaggle Notebook for this project is available here:
-
+[View the Titanic project on Kaggle](https://www.kaggle.com/code/sabanikara/titanic/edit/run/341221853)
 View the project on Kaggle
 Titanic Survival Prediction 🚢
 
